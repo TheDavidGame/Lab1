@@ -1,3 +1,5 @@
+import org.w3c.dom.ls.LSOutput;
+
 import java.util.Arrays;
 import java.util.Random;
 import java.util.Scanner;
@@ -42,11 +44,7 @@ public class main {
         }
         System.out.println();
         System.out.println("================");
-        ///Task 5///
-        System.out.print("Введите факториал: ");
-        int f = scan.nextInt();
-        System.out.println();
-        System.out.println("Результат: " + Factorial(f));
+        System.out.println("opa");
     }
     public static int Factorial(int n){
         int result = 1;
@@ -54,6 +52,8 @@ public class main {
             result = result*i;
         }
         return result;
+
     }
+
 }
 
